@@ -141,7 +141,6 @@ p {
 ol {
   color: black;
   font-size:medium;
-  text-shadow: 2px 4px 4px black;
   list-style-type: upper-roman;
 }
 .container {
