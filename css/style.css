@@ -17,6 +17,7 @@ figcaption {
   text-align: left;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
+  text-shadow: 1px 2px 2px black;
 }
 main {
   padding: 3px;
@@ -35,9 +36,10 @@ blockquote {
   font-size: 22px;
   text-align: center;
   color: whitesmoke;
+  text-shadow: 1px 2px 2px black;
 }
 h1 {
-  text-shadow: 1px 2px 2px #37ce5a74;
+  text-shadow: 1px 2px 2px black;
   color: #FFFFFF;
   text-align: center;
   font-size: 100%;
@@ -45,7 +47,7 @@ h1 {
 h2 {
   padding: 15px;
   color: #FFFFFF;
-  text-shadow: 1px 2px 2px #c0c0c0;
+  text-shadow: 1px 2px 2px black;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 100%;
@@ -53,7 +55,7 @@ h2 {
 h3 {
   padding: 15px;
   color: azure;
-  text-shadow: 1px 2px 2px #37ce5A74;
+  text-shadow: 1px 2px 2px black;
   font-size: 100%;
   font-style: oblique;
 }
@@ -64,13 +66,13 @@ h3 {
     border: 10px solid white;
 }
 h1 {
-  text-shadow: 1px 2px 2px #37ce5a74;
+  text-shadow: 1px 2px 2px black;
   text-align: center;
   font-size: 280%;
 }
 footer {
   color: white;
-  text-shadow: 1px 2px 2px #37ce5a74;
+  text-shadow: 1px 2px 2px black;
   padding: 5px;
   box-shadow:
   inset 0 -3em 3em rgba(0, 200, 0, 0.3),
@@ -128,7 +130,7 @@ section {
 }
 p {
   color: whitesmoke;
-  text-shadow: 1px 2px 2px #37ce5a00;
+  text-shadow: 1px 2px 2px black;
   font-size: 160%;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
@@ -138,7 +140,7 @@ p {
 ol {
   color: black;
   font-size:medium;
-  text-shadow: 1px 2px 2px #37ce5a74;
+  text-shadow: 1px 2px 2px black;
   list-style-type: upper-roman;
 }
 .container {
@@ -181,7 +183,7 @@ button:focus{
 }
 .topnav {
   color: white;
-  text-shadow: 1px 2px 2px #37ce5a74;
+  text-shadow: 1px 2px 2px black;
   padding: 18px;
   box-shadow:
   inset 0 -3em 3em rgba(0, 200, 0, 0.3),
@@ -197,11 +199,12 @@ button:focus{
   text-decoration: none;
   color: #FFFFFF;
   padding: 20px;
+  text-shadow: 1px 2px 2px black;
 }
 
 nav {
   color: white;
-  text-shadow: 1px 2px 2px #37ce5a74;
+  text-shadow: 1px 2px 2px black;
   padding: 18px;
   box-shadow:
   inset 0 -3em 3em rgba(0, 200, 0, 0.3),
@@ -225,7 +228,6 @@ nav {
 }
 
 .dropbtn {
-  text-shadow: 1px 2px 2px #37ce5a74;
   padding: 18px;
   box-shadow:
   inset 0 -3em 3em rgba(0, 200, 0, 0.3),
