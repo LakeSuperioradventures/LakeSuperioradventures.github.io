@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trip One: North Shore and Ontario photo gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/SeaLion-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/gallery.js"></script>
+</head>
+<body onload = "setImages()">
+    <a href="#main_content" class="skip">Skip to Main Content</a>  
+    <header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" target="_blank" class="active">Home</a>
+            <a href="Triponephotogallery.html" target="_blank">Trip One: North Shore and Ontario photo gallery</a>
+            <a href="Triptwophotogallery.html" target="_blank">Trip Two: Keeweenaw Peninsula photo gallery</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div> 
+    </header>
+    <br>
+    <div class="container-gallery">
+      <div class="mySlides">
+        <div class="numbertext">1 / 12</div>
+          <img src="images/DSC_0578.JPG" style="width:100%" alt="Sea Lion at Sleeping Giant Provincial Park.">
+    </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 12</div>
+            <img src="images/IMG_2385.jpg" style="width:100%" alt="Grand Portage High Falls.">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 12</div>
+            <img src="images/IMG_2382.jpg" style="width:100%" alt="Pigeon River.">
+        </div> 
+        <div class="mySlides">
+          <div class="numbertext">4 / 12</div>
+            <img src="images/IMG_2373.jpg" style="width:100%" alt="Waterfall in Cascade River State Park.">
+        </div>   
+        <div class="mySlides">
+          <div class="numbertext">5 / 12</div>
+            <img src="images/NorthShore3.JPG" style="width:100%" alt="North Shore near the Cascade River.">
+        </div>   
+    
+        <div class="mySlides">
+            <div class="numbertext">6 / 12</div>
+              <img src="images/IMG_2383.jpg" style="width:100%" alt="Another shot of the Grand Portage High Falls.">
+        </div>
+        <div class="mySlides">
+        <div class="numbertext">7 / 12</div>
+              <img src="images/DSC_0577.JPG" style="width:100%" alt="Lake Superior view from the hiking trail.">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">8 / 12</div>
+            <img src="images/DSC_0569.JPG" style="width:100%" alt="Lichen on rock.">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">9 / 12</div>
+            <img src="images/DSC_0574.JPG" style="width:100%" alt="Flower on the falls.">
+        </div> 
+        <div class="mySlides">
+          <div class="numbertext">10 / 12</div>
+            <img src="images/NorthShore2.JPG" style="width:100%" alt="North Shore near the Cascade River.">
+        </div> 
+        <div class="mySlides">
+          <div class="numbertext">11 / 12</div>
+            <img src="images/DSC_0579.JPG" style="width:100%" alt="Rocky shore.">
+        </div> 
+        <div class="mySlides">
+          <div class="numbertext">12 / 12</div>
+            <img src="images/IMG_2423.jpg" style="width:100%" alt="Top of the Giant.">
+        </div> 
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/DSC_0578.JPG" style="width:100%" onclick="currentSlide(1)" alt="Sea Lion at Sleeping Giant Provincial Park.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/IMG_2385.jpg" style="width:100%" onclick="currentSlide(2)" alt="Grand Portage High Falls.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/IMG_2382.jpg" style="width:100%" onclick="currentSlide(3)" alt="Pigeon River.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/IMG_2373.jpg" style="width:100%" onclick="currentSlide(4)" alt="Waterfall in Cascade River State Park.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/NorthShore3.JPG" style="width:100%" onclick="currentSlide(5)" alt="North Shore near the Cascade River.">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="images/IMG_2383.jpg" style="width:100%" onclick="currentSlide(6)" alt="Another shot of the Grand Portage High Falls.">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/DSC_0577.JPG" style="width:100%" onclick="currentSlide(7)" alt="Lake Superior view from the hiking trail.">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/DSC_0569.JPG" style="width:100%" onclick="currentSlide(8)" alt="Lichen on rock.">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/DSC_0574.JPG" style="width:100%" onclick="currentSlide(9)" alt="Flower on the falls.">
+          </div>  
+          <div class="column">
+            <img class="demo cursor" src="images/NorthShore2.JPG" style="width:100%" onclick="currentSlide(10)" alt="North Shore near the Cascade River.">
+          </div> 
+          <div class="column">
+            <img class="demo cursor" src="images/DSC_0579.JPG" style="width:100%" onclick="currentSlide(11)" alt="Rocky shore.">
+          </div> 
+          <div class="column">
+            <img class="demo cursor" src="images/IMG_2423.jpg" style="width:100%" onclick="currentSlide(12)" alt="Top of the Giant.">
+          </div> 
+      </div>
+    </div>
+    <br>
+    <nav>
+        <a style="color: white;"   href="#">Return to the top</a>
+    </nav>
+    <br>
+<footer tabindex="0">
+            <p>&copy; Leif Kopietz, April 2024<br>
+ </footer>
+</body>
+</html>
