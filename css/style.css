@@ -152,7 +152,7 @@ ol {
   padding-left: 20px;
 }
 .text a {
-color: blue;
+color: lightcyan;
 text-shadow: none;
 }
 button {
@@ -212,6 +212,7 @@ nav {
   0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
   font-weight: bolder;
   margin: 8px;
+  font-size: 200%;
 }
 
 .topnav a:hover {
