@@ -115,6 +115,7 @@ section {
   position: static;
   width: auto;
   height: auto;
+  background-color: #f1f1f1;
 }
 .grid-container {
   display: inline-block;
