@@ -313,7 +313,7 @@ img {
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: black;
+  /*background-color: black;*/
 }
 
 .next {
@@ -397,7 +397,7 @@ figcaption {
    }
  }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
